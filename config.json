@@ -1,0 +1,8 @@
+{
+  "nws_api_base": "https://api.weather.gov",
+  "user_agent": "weather-mcp-app/1.0 (contact@example.com)",
+  "timeouts": {
+    "connect": 10.0,
+    "read": 30.0
+  }
+}
