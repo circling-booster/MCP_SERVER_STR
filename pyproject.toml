@@ -1,11 +1,13 @@
 [project]
-name = "mcp-streamable-http-server"
-version = "0.1.0"
-description = "HTTP Streamable based example MCP Server"
+name = "mcp-weather-server"
+version = "0.2.0"
+description = "Refactored HTTP Streamable based MCP Server"
 requires-python = ">=3.12"
 dependencies = [
     "httpx~=0.28.0",
-    "mcp~=1.9.0",
+    "mcp[cli]~=1.2.0",  # mcp 버전에 맞게 조정
+    "uvicorn",
+    "python-dotenv"     # 추가됨
 ]
 
 [build-system]
